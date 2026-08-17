@@ -1,0 +1,5 @@
+require 'spree_core'
+require 'spree_extension'
+require 'spree_zip_autocomplete/engine'
+require 'spree_zip_autocomplete/version'
+require 'deface'
