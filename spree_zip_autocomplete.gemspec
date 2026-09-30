@@ -23,6 +23,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree', '= 5.3.6'
   s.add_dependency 'spree_admin', '= 5.3.6'
   s.add_dependency 'spree_storefront', '= 5.3.6'
+  # lib/spree_zip_autocomplete.rb が require する。SpreeExtension::Migration は使わないため版は固定しない
+  s.add_dependency 'spree_extension'
   s.add_dependency 'jipcode'
   s.add_dependency 'deface'
 end
